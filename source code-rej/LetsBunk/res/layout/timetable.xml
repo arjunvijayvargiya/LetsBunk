@@ -1,0 +1,1531 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+   >   
+
+<RelativeLayout
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#000000" >
+     <!--android:background="@drawable/bg2"-->
+     
+    
+   
+    
+    
+       <TextView
+           android:id="@+id/sub1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject1"
+           android:textAppearance="?android:attr/textAppearanceMedium" 
+           android:textColor="#FFFFFF" />
+
+     <EditText
+           android:id="@+id/sub1Text1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub1"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="20dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub1row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="70dp"
+           android:text="Classes Taken"
+          android:textColor="#ffffff" />
+         
+   
+      <EditText
+       android:id="@+id/sub1text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_toRightOf="@+id/row2"
+       android:layout_marginTop="70dp"
+       android:ems="10"
+       android:inputType="number" 
+      android:textColor="#000000" >
+
+
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/row1"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub1row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="120dp"
+           android:text="ClassesAttended"
+           android:textColor="#ffffff" />
+           
+
+     <EditText
+           android:id="@+id/sub1text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="120dp"
+           android:layout_toRightOf="@+id/sub1row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000" />
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/row1"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub1row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="170dp"
+           android:text="Required Attendance %age"
+           android:textColor="#ffffff" />
+          
+
+
+       <EditText
+           android:id="@+id/sub1text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="170dp"
+           android:layout_toRightOf="@+id/sub1row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+     
+     
+     
+     
+    
+   <TextView
+           android:id="@+id/sub2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="250dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject2"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#ffffff" />
+
+     <EditText
+           android:id="@+id/sub2Text1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub2"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="250dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub2row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="300dp"
+           android:text="Classes Taken"
+           android:textColor="#FFFFFF" />
+         
+   
+      <EditText
+       android:id="@+id/sub2text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_toRightOf="@+id/row6"
+       android:layout_marginTop="300dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub2row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="350dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" />
+          
+
+
+       <EditText
+           android:id="@+id/sub2text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="350dp"
+           android:layout_toRightOf="@+id/sub2row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row8"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub2row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="400dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub2text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="400dp"
+           android:layout_toRightOf="@+id/sub2row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+ 
+   
+   
+   
+   
+   
+        <TextView
+           android:id="@+id/sub3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="480dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject3"
+           android:textAppearance="?android:attr/textAppearanceMedium" 
+           android:textColor="#FFFFFF"
+           /> 
+     <EditText
+           android:id="@+id/sub3Text1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub1"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="480dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row10"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub3row2"
+           android:layout_width="wrap_content"
+         android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="530dp"
+           android:text="Classes Taken"
+          android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub3text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_toRightOf="@+id/row10"
+       android:layout_marginTop="530dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row11"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub3row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="580dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub3text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="580dp"
+           android:layout_toRightOf="@+id/sub3row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row12"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub3row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="630dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub3text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="630dp"
+           android:layout_toRightOf="@+id/sub3row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+   
+   
+   
+   
+   
+        <TextView
+           android:id="@+id/sub4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="710dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject4"
+           android:textAppearance="?android:attr/textAppearanceMedium" 
+           android:textColor="#FFFFFF" 
+           />
+
+     <EditText
+           android:id="@+id/sub4Text1"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub4"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="710dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row14"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub4row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="760dp"
+           android:text="Classes Taken"
+           android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub4text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_toRightOf="@+id/row14"
+       android:layout_marginTop="760dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row15"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub4row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="810dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub4text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="810dp"
+           android:layout_toRightOf="@+id/sub4row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row16"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub4row4"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="860dp"
+           android:text="Required Attendance %age"
+            android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub4text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="860dp"
+           android:layout_toRightOf="@+id/sub4row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+   
+   
+   
+   
+   
+        <TextView
+           android:id="@+id/sub5"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="940dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject5"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#FFFFFF"  />
+
+     <EditText
+           android:id="@+id/sub5Text1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub5"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="940dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row18"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub5row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="990dp"
+           android:text="Classes Taken"
+         android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub5text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_toRightOf="@+id/row18"
+       android:layout_marginTop="990dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+     
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row19"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub5row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1040dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub5text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1040dp"
+           android:layout_toRightOf="@+id/sub5row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row20"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub5row4"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1090dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub5text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1090dp"
+           android:layout_toRightOf="@+id/sub5row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+
+
+
+        
+        
+        <TextView
+           android:id="@+id/sub6"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="1170dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject6"
+           android:textAppearance="?android:attr/textAppearanceMedium" 
+           android:textColor="#FFFFFF" />
+
+     <EditText
+           android:id="@+id/sub6Text1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub5"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="1170dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row22"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub6row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="1220dp"
+           android:text="Classes Taken"
+           android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub6text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_toRightOf="@+id/row22"
+       android:layout_marginTop="1220dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row23"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub6row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1270dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub6text3"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1270dp"
+           android:layout_toRightOf="@+id/sub6row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row24"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub6row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1320dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub6text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1320dp"
+           android:layout_toRightOf="@+id/sub6row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+
+
+
+
+
+        <TextView
+           android:id="@+id/sub7"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="1400dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject7"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#FFFFFF"  />
+
+     <EditText
+           android:id="@+id/sub7Text1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub7"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="1400dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row26"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub7row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="1450dp"
+           android:text="Classes Taken"
+           android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub7text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_toRightOf="@+id/row26"
+       android:layout_marginTop="1450dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row27"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub7row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1500dp"
+           android:text="ClassesAttended"
+          android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub7text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1500dp"
+           android:layout_toRightOf="@+id/sub7row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row28"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub7row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1550dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub7text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1550dp"
+           android:layout_toRightOf="@+id/sub7row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+   
+   
+   
+   
+   
+           <TextView
+           android:id="@+id/sub8"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="1630dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject8"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#FFFFFF"  />
+
+     <EditText
+           android:id="@+id/sub8Text1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub8"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="1630dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row30"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub8row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="1680dp"
+           android:text="Classes Taken"
+         android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub8text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_toRightOf="@+id/row30"
+       android:layout_marginTop="1680dp"
+       android:ems="10"
+       android:inputType="number"
+       android:textColor="#000000" >
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row31"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub8row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1730dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub8text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1730dp"
+           android:layout_toRightOf="@+id/sub8row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row32"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub8row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1780dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub8text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1780dp"
+           android:layout_toRightOf="@+id/sub8row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+   
+   
+   
+   
+   
+              <TextView
+           android:id="@+id/sub9"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_marginTop="1860dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject9"
+           android:textAppearance="?android:attr/textAppearanceMedium" 
+           android:textColor="#FFFFFF" />
+
+     <EditText
+           android:id="@+id/sub9Text1"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub9"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="1860dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row34"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub9row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="1910dp"
+           android:text="Classes Taken"
+          android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub9text2"
+       android:layout_width="wrap_content"
+      android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="1910dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row35"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub9row3"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="1960dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub9text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="1960dp"
+           android:layout_toRightOf="@+id/sub9row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row36"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub9row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="2010dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub9text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="2010dp"
+           android:layout_toRightOf="@+id/sub9row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+   
+   
+   
+   
+   
+   
+   
+                 <TextView
+           android:id="@+id/sub10"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginTop="2090dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject10"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#FFFFFF"  />
+
+     <EditText
+           android:id="@+id/sub10Text1"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub10"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="2090dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row38"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub10row2"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="2140dp"
+           android:text="Classes Taken"
+          android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub10text2"
+       android:layout_width="wrap_content"
+      android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="2140dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row39"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub10row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="2190dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub10text3"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="2190dp"
+           android:layout_toRightOf="@+id/sub10row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row40"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub10row4"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="2240dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub10text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="2240dp"
+           android:layout_toRightOf="@+id/sub10row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+   
+     
+     
+     
+     
+     
+     <TextView
+           android:id="@+id/sub11"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_marginTop="2320dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject11"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#FFFFFF"  />
+
+     <EditText
+           android:id="@+id/sub11Text1"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub11"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="2320dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row42"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub11row2"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="2370dp"
+           android:text="Classes Taken"
+           android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub11text2"
+       android:layout_width="wrap_content"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="2370dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row43"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub11row3"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="2420dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub11text3"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="2420dp"
+           android:layout_toRightOf="@+id/sub11row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row44"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub11row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="2470dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub11text4"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="2470dp"
+           android:layout_toRightOf="@+id/sub11row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+   
+   
+   
+        
+        
+        <TextView
+           android:id="@+id/sub12"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_marginTop="2550dp"
+           android:layout_marginLeft="5dp"
+           android:layout_alignParentTop="true"
+           android:text="Subject12"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="#FFFFFF"  />
+
+     <EditText
+           android:id="@+id/sub12Text1"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+           android:layout_toRightOf="@+id/sub12"
+           android:layout_marginLeft="45dp"
+           android:layout_marginTop="2550dp"
+           android:ems="10" 
+           android:textColor="#000000"/>
+     
+   <TableRow
+       android:id="@+id/row46"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+       
+       <TextView
+           android:id="@+id/sub12row2"
+           android:layout_width="wrap_content"
+          android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+           android:layout_marginTop="2600dp"
+           android:text="Classes Taken"
+          android:textColor="#FFFFFF" 
+         />
+   
+      <EditText
+       android:id="@+id/sub12text2"
+       android:layout_width="wrap_content"
+      android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="2600dp"
+       android:ems="10"
+       android:inputType="number" 
+       android:textColor="#000000">
+
+      
+       </EditText>
+  </TableRow>
+
+   <TableRow
+       android:id="@+id/row47"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub12row3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="2650dp"
+           android:text="ClassesAttended"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub12text3"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="2650dp"
+           android:layout_toRightOf="@+id/sub12row3"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+
+   <TableRow
+       android:id="@+id/row48"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+
+       <TextView
+           android:id="@+id/sub12row4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="0dp"
+           android:layout_marginTop="2700dp"
+           android:text="Required Attendance %age"
+           android:textColor="#FFFFFF" 
+          />
+
+
+       <EditText
+           android:id="@+id/sub12text4"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginLeft="12dp"
+           android:layout_marginTop="2700dp"
+           android:layout_toRightOf="@+id/sub12row4"
+           android:ems="10"
+           android:inputType="number" 
+           android:textColor="#000000"/>
+   </TableRow>
+   
+   <TableRow
+        android:id="@+id/row49"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:padding="5dip">
+
+   <Button
+       android:id="@+id/submit"
+       android:layout_width="wrap_content"
+       android:layout_height="35dp"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="2750dp"
+       android:onClick="showtoast"
+       android:text="Submit" 
+       android:layout_marginLeft="5dp"/>
+   
+   
+   <Button
+       android:id="@+id/percent"
+       android:layout_width="wrap_content"
+       android:layout_height="35dp"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="2750dp"
+       android:onClick="showpercent"
+       android:text="Check Attendance" 
+       android:layout_marginLeft="20dp"/>
+       
+       
+    </TableRow>
+
+</RelativeLayout>
+</ScrollView>

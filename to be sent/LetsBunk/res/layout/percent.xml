@@ -1,0 +1,443 @@
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+   >   
+
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000"
+    >
+    
+    <TextView
+        android:id="@+id/View1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+    
+    <TableRow
+       android:id="@+id/row1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+       />
+    
+    <TextView
+        android:id="@+id/percentView1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+    </TableRow>  
+     
+    
+    
+    
+    
+    
+    <TextView
+        android:id="@+id/View2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" "
+        android:textColor="#FFFFFF"  />
+   
+    <TableRow
+       android:id="@+id/row2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+
+    
+    
+        <TextView
+        android:id="@+id/View3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+     
+    
+    
+    
+    
+    
+        <TextView
+        android:id="@+id/View4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+     
+    
+    
+    
+    
+        <TextView
+        android:id="@+id/View5"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" "
+        android:textColor="#FFFFFF"  />
+     </TableRow>
+    
+
+
+     <TextView
+        android:id="@+id/View6"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar6"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView6"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+     
+    
+    
+    
+    
+         <TextView
+        android:id="@+id/View7"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar7"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView7"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+     
+    
+    
+    
+         <TextView
+        android:id="@+id/View8"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row8"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar8"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView8"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+     
+    
+    
+    
+         <TextView
+        android:id="@+id/View9"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row9"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar9"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView9"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+    
+    
+
+         <TextView
+        android:id="@+id/View10"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row10"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar10"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView10"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+    
+    
+    
+    
+    
+         <TextView
+        android:id="@+id/View11"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row11"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar11"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/percentView11"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+     </TableRow>
+    
+    
+    
+    
+         <TextView
+        android:id="@+id/View12"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" " 
+        android:textColor="#FFFFFF" />
+   
+    <TableRow
+       android:id="@+id/row12"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:padding="5dip" >
+    <ProgressBar
+        android:id="@+id/progressBar12"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="3dp" 
+        android:layout_width="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+         android:layout_marginBottom="20dp"/>
+     <TextView
+        android:id="@+id/percentView12"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:text=" " 
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF" />
+     </TableRow>
+  </LinearLayout>
+  </ScrollView> 
+    

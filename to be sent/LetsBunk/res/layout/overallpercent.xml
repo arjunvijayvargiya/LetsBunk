@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000"
+    android:textColor="#FFFFFF">
+    
+    <TextView
+        android:id="@+id/View1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:text="Total Attendance Percentage" 
+        android:textColor="#FFFFFF"/>
+      <TableRow
+       android:id="@+id/row1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/row1"
+       android:layout_alignParentTop="true"
+       android:padding="5dip" >
+    
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="230dp"
+        android:layout_height="3dp" 
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+        android:id="@+id/View2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:text=" " 
+        android:textColor="#FFFFFF"/>
+     </TableRow>
+
+</LinearLayout>
